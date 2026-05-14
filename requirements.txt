@@ -1,0 +1,25 @@
+#web framework & server
+fastapi
+uvicorn
+
+#langchain ecosystem
+langchain
+langchain-core
+langchain-google-genai
+langchain-openai
+langgraph
+
+#RAG
+ragwire
+
+#chat frontend
+chainlit
+aiosqlite
+sqlalchemy
+
+#utilities
+python-dotenv
+pyyaml
+httpx
+markdown2
+xhtml2pdf
