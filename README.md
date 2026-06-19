@@ -13,6 +13,7 @@ il bello di LangGraph è che puoi astrarre e fare easy switch degli LLM solo nel
   - docker start qdrant   //avvia container
   - docker ps   //check che container stia runnando 
 - 5.in 2 anaconda prompt aperti, entrambi con environment attivo (conda activate envPrjRagwire), entrambi i posizione path root del prj
+  - python v1init_db.py  //esegue script per creare schema db sqllite, per persistence short-term memory. 
   - python v1main.py   //avvia backend fastapi in un prompt
   - chainlit run v1app.py   //avvia frontend chat chainlit nell'altro prompt
 - 6.utilizzare l'applicazione (ti apre nuova pagina Web) caricando documenti e chiedere info about quei documenti (ho lasciato un file .pdf nella root prj per testare).
